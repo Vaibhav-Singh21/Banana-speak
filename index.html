@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Giberish Translator</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         textarea {
             width: 80%;
@@ -22,12 +23,38 @@
     </style>
 </head>
 <body>
-    <h1>Lets Go🖖🏼✔</h1>
+    <header><span>
+        <img src="images/mini1.png" alt="logo" style="height: 60px;">
+    </span>
+        <h1>Minion Translator</h1>
+    <span><img src="images/mini2.png" alt="logo" style="height: 60px;"></span>
+    </header>
     <textarea id="txt-input" placeholder="Enter your sentence to convert it."></textarea>
-    <input  type="Button" value="Translate" id="btn-translate">
+    <div class="container">
+        <button class="btn-translate">Translate</button>
+        <div style="font-size: larger;">Output will come here.👇🏼</div>
+    </div>
+    
 
-    <div style="font-size: larger;">Output will come here.👇🏼</div>
+    
     <div id="output"></div>
+
+    
+    <footer class="footer">
+        <div class="footer-header"><h4>Connect with me 🔗</h4></div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a href="www.linkedin.com/in/vaibhav-singh-886099" target="_blank" class="link">Linkedin</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="https://github.com/Vaibhav-Singh21" target="_blank" class="link">Github</a>
+          </li>
+          <li class="list-item-inline">
+            <a href="https://www.instagram.com/_social_distansingh/" target="_blank" class="link">Instagram</a>
+          </li>
+        </ul>
+        <h4>Made with ❤</h4>
+      </footer>
     <script src="app.js" type="text/javascript"> </script>
 </body>
 </html>
